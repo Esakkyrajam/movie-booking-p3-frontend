@@ -38,5 +38,5 @@ It provides a smooth and responsive user experience for both **users** and **adm
 
 ## 🎥 Walkthrough Video
 
-🔗 **Project Walkthrough (Google Drive)** – [(https://drive.google.com/file/d/1r31mDVp2kH7dOpMYN_6007pXkH2v3o58/view?usp=sharing)](#)
+🔗 **Project Walkthrough (Google Drive)** – https://drive.google.com/file/d/1r31mDVp2kH7dOpMYN_6007pXkH2v3o58/view?usp=sharing
 
