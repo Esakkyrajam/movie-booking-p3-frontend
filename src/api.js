@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:8080/"; // your Spring Boot backend
+const API_URL = "https://moviebookingp3.onrender.com/"; // your Spring Boot backend
 
 const axiosInstance = axios.create({
   baseURL: API_URL,

@@ -66,10 +66,13 @@ function Register({ setUser }) {
 
   const handleRegister = async () => {
     try {
-      const response = await axios.post("http://localhost:8080/auth/register", {
-        email,
-        password,
-      });
+      const response = await axios.post(
+        "https://moviebookingp3.onrender.com/auth/register",
+        {
+          email,
+          password,
+        }
+      );
       alert(response.data);
       navigate("/login");
     } catch (err) {

@@ -394,7 +394,7 @@ function App() {
   const [bookings, setBookings] = useState([]);
   const [error, setError] = useState(null);
   // console.log("App rendered. Current user:", user);
-  const API_URL = "http://localhost:8080/"; // 🔑 ADDED '/api' to be consistent with backend
+  const API_URL = "https://moviebookingp3.onrender.com/"; // 🔑 ADDED '/api' to be consistent with backend
 
   const axiosInstance = useMemo(() => {
     const instance = axios.create({

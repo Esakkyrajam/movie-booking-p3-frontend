@@ -98,12 +98,12 @@ function Navbar({ user, setUser }) {
                 </Link>
               )}
 
-              <Link
+              {/* <Link
                 to="/profile"
                 className="hover:text-indigo-600 hover:underline transition"
               >
                 Profile
-              </Link>
+              </Link> */}
               <Link
                 to="/booking-history"
                 className="hover:text-indigo-600 hover:underline transition"

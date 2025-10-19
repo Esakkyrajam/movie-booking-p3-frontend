@@ -11,10 +11,10 @@ function Profile({ user }) {
           <span className="font-semibold">Email:</span>{" "}
           {user?.email || "Not logged in"}
         </p>
-        <p className="text-lg mt-2">
+        {/* <p className="text-lg mt-2">
           <span className="font-semibold">Role:</span>{" "}
           {user?.isAdmin ? "Admin" : "User"}
-        </p>
+        </p> */}
       </div>
 
       <button
